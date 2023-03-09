@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobilgge.css">
     <script src="js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
@@ -155,57 +157,60 @@
                  </section>
              
         
-              <section class="about-myself">
-                      <div class="top-left">
-                      <h2>About <br>Myself</h2><br>
-                      <p >Hello I’m a software developer! I can help you build a product , feature or website Look 
+              <section class="container-fluid mb-5">
+                      <div class="row g-0 bg-white p-2 justify-content-between">
+                      <div class="col-md-6  d-grid gap-2  p-2 mt-5" >
+                      <h2 class="h2">About <br>Myself</h2><br>
+                      <p>Hello I’m a software developer! I can help you build a product , feature or website Look 
                           through some of my work and experience! If you like what you see and have a project you need code,
                            don’t hestiate to contact me.</p>
-                        <div  class="connect"> <a href="#">LET'S CONNECT</a></div>
-                      <div class="social-connect">
-                          <ul>
-                              <li><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
-                              <li><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li> 
-                              <li><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
-                              <li><a href="#"><img src="img/angellist.svg" alt="Angilist"></a></li>
-                              <li><a href="#"><img src="img/github.svg" alt="Github"></a></li>
-                          </ul>
-                           </div><br>
-                      <button class="btn1" type="button">Get my resume</button><br><br><br>
+                        <a  class="text-decoration-none" href="#">LET'S CONNECT</a>
+                      <div>
+                        <ul class="list-inline ms-0">
+                            <li class="list-inline-item p-1"><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
+                            <li class="list-inline-item p-1"><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li> 
+                            <li class="list-inline-item p-1"><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
+                            <li class="list-inline-item p-1"><a href="#"><img src="img/angellist.svg" alt="Angilist"></a></li>
+                            <li class="list-inline-item p-1"><a href="#"><img src="img/github.svg" alt="Github"></a></li>
+                        </ul>
+                           </div>
+                      <button class="btn btn-outline-info" type="button" style="width:145px">Get my resume</button><br><br><br>
                        </div>
-                      <div class="top-right">
-                      <div class="lang-skill">
-                          <span class="lg">Languages</span>
-                          <img class="down" src="img/download.png" alt="down arrows languages">
+                      <div class="col-md-6 p-2 mt-5">
+                      <div class="accordion-item">
+                          <span class="h5">Languages</span>
+                          <img class="down" src="img/download.png" alt="down arrows languages" >
                       </div>
-                      <div class="show-skill">
-                      <ul>
-                          <li >
+                      <div class="mt-5 mb-5">
+                      <ul class="list-inline d-flex gap-4">
+                          <li class="list-inline-item p-1 d-flex flex-column bg">
                               <img class="lang-img" src="img/Ellipse1.png" alt="javascript"> 
                               <span class="span">JavaScript</span>
                           </li>
-                          <li >
+                          <li class="list-inline-item p-1 d-flex flex-column">
                               <img class="lang-img" src="img/Ellipse2.png" alt="HTML"> 
                               <span class="span">HTML</span>
                           </li>
-                          <li >
+                          <li class="list-inline-item p-1 d-flex flex-column">
                               <img class="lang-img" src="img/Ellipse3.png" alt="CSS"> 
                               <span class="span">CSS</span>
                           </li>
                       </ul>
                       </div>
                       
-                      <div class="more-skill">
-                          <span class="lg">Frameworks</span>
+                      <div class="accordion-item">
+                          <span class="h5">Frameworks</span>
                           <img class="down" src="img/forward-arrow-1.png" alt="down arrow framworks">
                           <hr class="divider1">
                       </div>
-                      <div class="lang-skill">
-                          <span class="lg">Skills</span>
+                      <div class="accordion-item">
+                          <span class="h5">Skills</span>
                           <img class="down" src="img/forward-arrow-1.png" alt=" forward arrow skills" >
                           <hr class="divider2">
                       </div>
                       </div>
+
+                    </div>
               </section>
 
               <section class="contact-form">
