@@ -256,7 +256,9 @@
   .contact_form {
     width: 447px;
     text-align: center;
-    padding: 25px;
+    align-items: center;
+    padding-left: 200px;
+   
   }
 
   .contact_form input:focus {
