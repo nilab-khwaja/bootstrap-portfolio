@@ -9,42 +9,36 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
-        <div class="container">
-             <header>
-                   <a>My Logo</a>
-                   <nav>
-                   <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span> 
-                    </div>
+    <div class="container-fluid">
+             <div class="container-fluid">
+                   <nav class="navbar navbar-expand-lg bg-light p-3 w">
+                      <div class="container-fluid">
+                      <a class="navbar-brand text-info ms-5"> My Logo</a>
+                      </div>
+                      <div class="navbar-nav me-5">
+                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                      </div>
+                    
+                 </nav>
+            </div>
 
-                    <div>
-                        <ul>
-                            <li>Portfolio</li>
-                            <li>About</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-
-                <section class="headline">
-                    <h1>I’m Nilab<br> Glad to see you!</h1><br>
+                <section class="container-fluid p-5 m-5 d-grid">
+                    <h1 class="h1">I’m Nilab<br> Glad to see you!</h1><br>
                      <p>I’m a software developer! I can help you build a product , 
                         feature or website Look through<br> some of my work and experience! If you like what you see and have a project you need <br>coded, 
                         don’t hestiate to contact me.</p><br>
                         
-                     <div><a  href="#"> LET'S CONNECT </a> </div><br>
+                     <div><a  href="#" class="text-decoration-none"> LET'S CONNECT </a> </div><br>
     
                     <div>
-                    <ul>
-                        <li><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
-                        <li><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li> 
-                        <li><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
-                        <li><a href="#"><img src="img/angellist.svg" alt="Angilist"></a></li>
-                        <li><a href="#"><img src="img/github.svg" alt="Github"></a></li>
+                    <ul class="list-inline ms-0">
+                        <li class="list-inline-item p-1"><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
+                        <li class="list-inline-item p-1"><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li> 
+                        <li class="list-inline-item p-1"><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
+                        <li class="list-inline-item p-1"><a href="#"><img src="img/angellist.svg" alt="Angilist"></a></li>
+                        <li class="list-inline-item p-1"><a href="#"><img src="img/github.svg" alt="Github"></a></li>
                     </ul>
                      </div>
                    </section>
@@ -52,26 +46,30 @@
         
 
 
-            <section class="cards">
-                  <section  class="card-work_desktop">
-                    <div class="snapshot"></div>
-                      <div class="left-block">
-                           <h2 class="text-title">Tonic</h2>
-                            <div class="experiance">
-                            <span class="small">CONOPY</span>
-                            <ul class="block">
-                            <li>&bull; Back End Dev</li>
-                            <li>&bull; 2015</li>
+            <section class="container bg-light m-xl-5">
+                  <section  class="card mb-5 p-3">
+                    <div class="row g-0">
+                    <div class="col-md-6 p-2"><img src="img/desktop img 1.jpg" class="img-fluid rounded" alt="first img"> </div>
+                      <div class="col-md-6 p-2 d-grid gap-2">
+                        <div class="card-body d-flex flex-column gap-3 ">
+                           <h2 class="card-title">Tonic</h2>
+                            <div class="d-flex gap-lg-5 ">
+                            <h6 class="h6">CONOPY</h6>
+                            <ul class="list-inline ">
+                            <li class="list-inline-item text-muted">&bull; Back End Dev</li>
+                            <li class="list-inline-item text-muted">&bull; 2015</li>
                             </ul>
                             </div>
-                            <div class="explain"><p>A daily selection of privately personalized reads; 
+                            <div class="text-black"><p>A daily selection of privately personalized reads; 
                                 no accounts or sign-ups required.</p></div>
-                            <ul class="tags">
-                                <li>html</li>
-                                <li>css</li>
-                                <li>javascript</li>
+                            <ul class="list-inline">
+                                <li class="list-inline-item bg-info rounded p-2">html</li>
+                                <li class="list-inline-item bg-info rounded p-2">css</li>
+                                <li class="list-inline-item bg-info rounded p-2">javascript</li>
                             </ul>
-                            <button  class="btn" type="button">See Project</button>
+                            <button class=" btn btn-outline-info btn-lg " style="width:145px;">See Project</button>
+                            </div>
+                    </div>
                     </div>
                  </section>
 
