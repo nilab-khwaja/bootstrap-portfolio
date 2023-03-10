@@ -51,11 +51,15 @@
     width: 375px;
   }
   .contact-form {
+    width: 100%;
     height: auto;
     background-color: #3e48a3;
     border-top-left-radius: 70px;
     background-image: url('img/contact\ form\ background\ shapes.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: fixed;
+
+  }
+  .container-fluid{
+    width: 100%;
   }
