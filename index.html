@@ -5,37 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="mobilgge.css">
+    <link rel="stylesheet" href="exStyle.css">
     <script src="js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid">
-             <div class="container-fluid">
-                   <nav class="navbar navbar-expand-lg bg-light p-3 w">
-                      <div class="container-fluid">
-                      <a class="navbar-brand text-info ms-5"> My Logo</a>
+    <div class="container-fluid m-sm-0">
+             <div class="container-fluid,mb-1 bg-white">
+                <div class="container-fluid bg-white">
+                    <navbar class="d-flex justify-content-between align-content-center p-3 ">
+                      <a href="#" class="text-decoration-none fs-5 ms-5 mt-2" >My Logo</a>
+                      <div class="d-md-none bg-white mt-2">
+                        <span class="d-block bar"></span>
+                        <span class="d-block bar"></span>
+                        <span class="d-block bar"></span>
                       </div>
-                      <div class="navbar-nav me-5">
-                        <a class="nav-link" href="#">Portfolio</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Contact</a>
+                      <div class="d-none d-md-block me-5">
+                        <ul class="d-flex  align-content-center gap-2">
+                          <li class="list-inline p-3">
+                            <a href="#" class="text-decoration-none">Portfolio</a>
+                          </li>
+                          <li class="list-inline p-3">
+                            <a href="#" class="text-decoration-none">About</a>
+                          </li>
+                          <li class="list-inline p-3">
+                            <a href="#" class="text-decoration-none">Contact</a>
+                          </li>
+                        </ul>
                       </div>
-                    
-                 </nav>
+                    </navbar>
+                  </div>
+                </section>
             </div>
 
-                <section class="container-fluid p-5 m-5 d-grid">
-                    <h1 class="h1">I’m Nilab<br> Glad to see you!</h1><br>
-                     <p>I’m a software developer! I can help you build a product , 
+                <section class="container-fluid p-5 d-grid bg-white align-items-lg-stretch headline">
+                    <h1 class="h1 ms-md-5 ms-sm-0">We’re Nilab and Gemechis<br> Glad to see you!</h1><br>
+                     <p class="ms-md-5 ms-sm-0">We’re a software developer! We can help you build a product , 
                         feature or website Look through<br> some of my work and experience! If you like what you see and have a project you need <br>coded, 
-                        don’t hestiate to contact me.</p><br>
+                        don’t hestiate to contact us.</p><br>
                         
-                     <div><a  href="#" class="text-decoration-none"> LET'S CONNECT </a> </div><br>
+                     <div><a  href="#" class="text-decoration-none ms-md-5 ms-sm-0"> LET'S CONNECT </a> </div><br>
     
                     <div>
-                    <ul class="list-inline ms-0">
+                    <ul class="list-inline ms-md-5 ms-sm-0">
                         <li class="list-inline-item p-1"><a href="#"><img src="img/twitter.svg" alt="Twitter"></a></li>
                         <li class="list-inline-item p-1"><a href="#"><img src="img/Linkedin.svg" alt="Linkedin"></a></li> 
                         <li class="list-inline-item p-1"><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
@@ -48,7 +60,7 @@
         
 
 
-            <section class="container bg-light m-xl-5">
+            <section class="container bg-light m-sm-1 m-md-3 m-lg-5">
                   <section  class="card mb-5 p-3">
                     <div class="row g-0">
                     <div class="col-md-6 p-2"><img src="img/desktop img 1.jpg" class="img-fluid rounded" alt="first img"> </div>
@@ -104,7 +116,7 @@
 
                  <section  class="card mb-5 p-3">
                     <div class="row g-0">
-                      <div class="col-md-6 p-2"><img src="img/Snapshoot Portfolio (2).jpg" class="img-fluid rounded" alt="first img"> </div>
+                      <div class="col-md-6 p-2"><img src="img/Snapshoot Portfolio (2).jpg" class="img-fluid rounded img-width" alt="first img"> </div>
                       <div class="col-md-6 p-2 d-grid gap-2">
                         <div class="card-body d-flex flex-column gap-3 ">
                            <h2 class="card-title">FACEBOOK 360</h2>
@@ -152,12 +164,12 @@
                             <button class=" btn btn-outline-info btn-lg " style="width:145px;">See Project</button>
                             </div>
                     </div>
-                    <div class="col-md-6 p-2"><img src="img/Snapshoot Portfolio (1).jpg" class="img-fluid rounded" alt="first img"> </div>
+                    <div class="col-md-6 p-2"><img src="img/Snapshoot Portfolio (1).jpg" class="img-fluid rounded img-width" alt="first img"> </div>
                     </div>
                  </section>
              
         
-              <section class="container-fluid mb-5">
+              <section class="container-fluid">
                       <div class="row g-0 bg-white p-2 justify-content-between">
                       <div class="col-md-6  d-grid gap-2  p-2 mt-5" >
                       <h2 class="h2">About <br>Myself</h2><br>
@@ -182,16 +194,16 @@
                           <img class="down" src="img/download.png" alt="down arrows languages" >
                       </div>
                       <div class="mt-5 mb-5">
-                      <ul class="list-inline d-flex gap-4">
-                          <li class="list-inline-item p-1 d-flex flex-column bg">
+                      <ul class="list-inline d-md-flex d-lg-flex gap-4 d-sm-block">
+                          <li class="list-inline-item p-1 d-flex flex-md-column flex-lg-column  bg-light-subtle flex-sm-row p-sm-3 mb-1">
                               <img class="lang-img" src="img/Ellipse1.png" alt="javascript"> 
                               <span class="span">JavaScript</span>
                           </li>
-                          <li class="list-inline-item p-1 d-flex flex-column">
+                          <li class="list-inline-item p-1 d-flex flex-md-column flex-lg-column  bg-light-subtle flex-sm-row p-sm-3 mb-1">
                               <img class="lang-img" src="img/Ellipse2.png" alt="HTML"> 
                               <span class="span">HTML</span>
                           </li>
-                          <li class="list-inline-item p-1 d-flex flex-column">
+                          <li class="list-inline-item p-1 d-flex flex-md-column flex-lg-column bg-light-subtle flex-sm-row p-sm-3 mb-1">
                               <img class="lang-img" src="img/Ellipse3.png" alt="CSS"> 
                               <span class="span">CSS</span>
                           </li>
@@ -213,44 +225,21 @@
                     </div>
               </section>
 
-              <!-- <section class="container " >
-
-                <div class="mb-1 d-grid justify-content-center align-items-center p-1">
-                    <h2>Contact me</h2>
-                    <p>If you have an application you are interested in developing, 
-                        a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                        <div class="contact_form">
-                    <form class="gap-1 d-flex flex-column m-0 p-0"action="https://formspree.io/f/xzbqgdoy" method="post">
-
-                  <input type="text" class="m-2 p-1" id="fullname" aria-describedby="emailHelp" maxlength="30" placeholder=" fullname" required>
-                  <input type="email" class="m-2 p-1"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
-                  <textarea  name="message" class="m-3 p-lg-2"  placeholder="Write your message here" maxlength="500" cols="10"required></textarea>
-            
-                <button type="submit" class="btn btn-primary"  >Submit</button>
-              
-            </form>
-            </div>
-            </div>
-        </section>   -->
-
-
-
-
-              <section class="container pb-4 mb-5">
+            <section class="container-fluid mb-5 contact-form">
                  <div class="d-flex flex-column align-items-center">
-                <h2 class="h2 p-2">Contact me</h2>
+                <h2 class="h2 p-2 mt-5">Contact me</h2>
                 <p class="text-center">If you have an application you are interested in<br>developing, 
                     a feature that you need built or a project <br> that needs coding. I’d love to help with it </p>
                  </div>
                 
-                    <form  action="https://formspree.io/f/xzbqgdoy" method="post">
-                    <div class="d-flex flex-column  m-5 align-items-center " >
-                        <div class="col p-2  "><input class="form-control" type="text" name="fullname" placeholder="Enter your full name" maxlength="30" required></div> 
-                        <div class="col p-2">  <input class="form-control" type="email" name="email" placeholder="Enter your email" required></div>
-                        <div class="col p-2"><textarea class="form-control" name="message" placeholder="Write your message here" maxlength="500" required></textarea></div>
+                    <form  action="https://formspree.io/f/xzbqgdoy" method="post" class="">
+                    <div class="d-flex flex-column  m-5 align-items-center" >
+                        <div class="col p-2  "><input class="form-control input-width " type="text" name="fullname" placeholder="Enter your full name" maxlength="30" required></div> 
+                        <div class="col p-2">  <input class="form-control input-width" type="email" name="email" placeholder="Enter your email" required></div>
+                        <div class="col p-2"><textarea class="form-control input-width" name="message" rows="8" placeholder="Write your message here" maxlength="500" required></textarea></div>
 
 
-                    <button class="btn btn-outline-info">Get in touch</button>
+                    <button class="btn btn-outline-info bg-white">Get in touch</button>
 
                 </div>
                  </form>
